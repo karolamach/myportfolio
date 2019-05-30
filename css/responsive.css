@@ -1,0 +1,136 @@
+
+ @media all and (max-width: 992px) {
+
+    .container-about-me {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .about-me {
+        width: 100%;
+        display: inline-block;
+        float: left;
+        padding: 5px;
+        font-size: 14px;
+    }
+    .skills p {
+        font-size: 14px;
+    }
+
+    #pf1.gallery {
+        width: 100%;
+        background-size: cover;
+    }
+
+    #pf2.gallery {
+
+        width: 100%;
+        background-size: cover;
+    }
+
+    #pf3.gallery {
+
+        width: 100%;
+        background-size: cover;
+    }
+
+    #pf4.gallery {
+
+        width: 100%;
+        background-size: cover;
+    }
+
+    #pf5.gallery {
+
+        width: 100%;
+        background-size: cover;
+    }
+
+    #pf6.gallery {
+
+        width: 100%;
+        background-size: cover;
+    }
+
+    /*RESPONSIVE NAV BAR*/
+    nav label {
+        display: block;
+        text-align: right;
+        line-height: 80px;
+        margin-right: 25px;
+        color:black;
+    }
+
+
+    nav ul {
+        display: none;
+
+    }
+
+    #rwdmenu:checked + ul {
+        display: block;
+        position: absolute;
+        background-color:lightgray;
+        width: 30%;
+        margin-left: 70%;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    .about-me p {
+        text-align: center;
+    }
+
+    .address {
+        width: 100%;
+        display: block;
+        padding: 10px;
+
+    }
+    .address address {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+    }
+    .address {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .address form {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .pf-mask {
+        background-color: lightgray;
+        height: 100%;
+        padding: 10px;
+        opacity: 1;
+        transition-duration: 0.5s;
+
+    }
+
+    .pf-border {
+        position: relative;
+        height: 100%;
+        border: 1px solid white;
+    }
+
+    .pf-text {
+        text-align: center;
+        color: black;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 900px) {
+    .social {
+        top: 10rem;
+    }
+}
