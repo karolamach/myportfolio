@@ -286,6 +286,8 @@ animation: spin 5s infinite linear;
 }
 .paidprojects-logos figure {
     display: inline-block;
+    width: 33.33%;
+    height: 350px;
  
 }
 /* 
