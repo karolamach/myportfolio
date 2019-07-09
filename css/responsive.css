@@ -17,6 +17,11 @@
         font-size: 14px;
     }
 
+    .paid-projects-logos{
+        width: 100%;
+        background-size: cover;
+    }
+
     #pf1.gallery {
         width: 100%;
         background-size: cover;
